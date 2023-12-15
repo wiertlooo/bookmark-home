@@ -38,7 +38,7 @@ function Faq() {
   return (
     <div>
       <div className="faq-header">
-        <h1 id="faq-h">Frequentyly Asked Questions</h1>
+        <h1 id="faq-h">Frequently Asked Questions</h1>
         <p>
           Here are some of our FAQs. If you have any other Questions you'd like
           answered please fell free to email us.
