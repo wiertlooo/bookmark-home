@@ -1,0 +1,26 @@
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba($color: #000000, $alpha: 0.1);
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  margin: 20px;
+  margin-bottom: 100px;
+}
+
+.browser-logo {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-left: auto;
+}
+
+.divider {
+  margin-left: -10px;
+}
+
+#card-button {
+  margin: 10px;
+}

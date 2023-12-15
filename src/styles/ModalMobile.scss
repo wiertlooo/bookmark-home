@@ -1,0 +1,66 @@
+.modal-mobile-background {
+  position: fixed;
+  inset: 0;
+  background-color: hsl(229, 31%, 21%);
+  opacity: 90%;
+}
+
+.modal-mobile-container {
+  position: fixed;
+  inset: 0;
+}
+.modal-mobile-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  height: 70px;
+}
+
+.cross-leave {
+  color: white;
+  font-weight: 700;
+  font-size: large;
+}
+
+.modal-mobile-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.modal-mobile-list-item {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-top: -21px;
+  width: 80%;
+  text-align: center;
+  color: white;
+  font-weight: 400;
+  border-top: 1px solid hsl(240, 1%, 75%);
+  border-bottom: 1px solid hsl(240, 1%, 75%);
+}
+
+.modal-button-mobile {
+  width: 80%;
+  background-color: hsla(229, 31%, 21%, 0);
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.icons-mobile-container {
+  display: flex;
+  margin-top: 200px;
+  flex-direction: row;
+  justify-content: center;
+}
+.icon-mobile {
+  margin: 20px;
+}

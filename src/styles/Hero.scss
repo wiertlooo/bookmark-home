@@ -1,0 +1,83 @@
+.hero-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.left-column-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 90px;
+}
+
+.button-hero-container {
+  margin-top: 10px;
+}
+
+#button-hero-left {
+  margin-right: 20px;
+}
+
+.right-column-hero {
+  display: flex;
+  align-items: flex-end;
+  margin-left: 70px;
+  max-width: 50%;
+}
+
+#bookmark-p {
+  max-width: 100%;
+}
+
+.svg-right {
+  position: absolute;
+  z-index: -1;
+}
+
+@media (max-width: 375px) {
+  .hero-container {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 90%;
+    margin: auto;
+  }
+  .left-column-hero {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .right-column-hero {
+    max-width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .button-hero-container {
+    display: flex;
+    flex-direction: row;
+    width: 360px;
+    margin-right: auto;
+  }
+  #button-hero-left {
+    margin-left: -10px;
+  }
+
+  .svg-right {
+    margin-top: 50px;
+    right: 0;
+  }
+  #h1-hero {
+    font-size: 32px;
+  }
+  #bookmark-p {
+    max-width: 90%;
+  }
+}
